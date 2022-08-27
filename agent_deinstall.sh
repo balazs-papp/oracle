@@ -11,3 +11,6 @@ http://docs.oracle.com/cd/E73210_01/EMADV/GUID-598AFBE9-F231-4138-A8F0-61A497231
 /u01/app/oracle/agent/agent_13.3.0.0.0/perl/bin/perl /u01/app/oracle/agent/agent_13.3.0.0.0/sysman/install/AgentDeinstall.pl -agentHome /u01/app/oracle/agent/agent_13.3.0.0.0
 /u01/app/oracle/agent/agent_13.4.0.0.0/perl/bin/perl /u01/app/oracle/agent/agent_13.4.0.0.0/sysman/install/AgentDeinstall.pl -agentHome /u01/app/oracle/agent/agent_13.4.0.0.0
 /app/oracle/cc13c/agent_aws/agent_13.4.0.0.0/perl/bin/perl /app/oracle/cc13c/agent_aws/agent_13.4.0.0.0/sysman/install/AgentDeinstall.pl -agentHome //app/oracle/cc13c/agent_aws/agent_13.4.0.0.0
+
+export AGENT_HOME=/u01/app/oracle/agent/agent_13.4.0.0.0
+${AGENT_HOME}/perl/bin/perl ${AGENT_HOME}/sysman/install/AgentDeinstall.pl -agentHome ${AGENT_HOME}
